@@ -16,17 +16,11 @@ Classify vehicle images (**bus**, **microbus**, **sedan**, **minivan**, **SUV**,
 
 A hands-on **data-mining / machine-learning** project that engineers geometric features (width, height, perimeter, area) from raw bounding-box annotations, then benchmarks **Linear Regression**, **Logistic Regression**, **Decision Tree**, and **Multi-Layer Perceptron (MLP)** classifiers on the same 80/20 train/test split. All models are evaluated with accuracy and Jaccard similarity, and results are reproducible via a fixed random seed.
 
-> **GitHub description (copy-paste into repo settings):**
-> `Classify car types (bus, sedan, SUV, truck, ...) from bounding-box geometry using logistic regression, decision trees, and MLP — a scikit-learn data-mining exercise.`
-
-> **GitHub topics (copy-paste into repo settings):**
-> `data-mining` `machine-learning` `scikit-learn` `classification` `logistic-regression` `decision-tree` `mlp` `jupyter-notebook` `python` `numpy` `pandas` `scipy`
-
 ---
 
 ## Overview
 
-A data-mining course project that answers a simple, practical question:
+This project answers a simple, practical question:
 
 > Can we tell what kind of vehicle is in a photo using only the geometry of its bounding box?
 
@@ -64,8 +58,8 @@ Evaluation is reported as **accuracy** (`score`) and **Jaccard similarity**.
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/car-type-classification.git
-cd car-type-classification
+git clone git@github.com:farhadhsn8/data_mining-car-detection-.git
+cd data_mining-car-detection-
 pip install -r requirements.txt
 ```
 
@@ -147,4 +141,4 @@ jupyter notebook DM_prj2.ipynb
 
 ## Author
 
-[Seyed Farhad Hosseini](https://github.com/<your-username>)
+[Seyed Farhad Hosseini](https://github.com/farhadhsn8)
